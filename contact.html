@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+         body{
+            background-image: radial-gradient(rgb(99, 92, 92),black);
+            background-size: cover;
+            background-repeat: no-repeat;
+           
+        }
+        h1{
+            text-align: center;
+            color: rgb(255, 0, 0);
+        }
+        h2{
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+       
+        form{
+           
+            border: 2px solid wheat;
+            padding: 10px;
+            margin: auto;
+            width: 12cm;
+           
+            
+            border-radius: 10px;
+            color: white;
+          
+        }
+        input{
+            display: block;
+            width: 97%;
+            border-radius: 12px;
+            padding: 3px;
+        }
+        input:hover{
+            background-color: rgba(250, 235, 215, 0.767);
+        }
+        input:focus{
+            background-color: rgba(250, 235, 215, 0.767);
+        }
+        button{
+            padding: 3px;
+            border: 2px solid transparent;
+            font-weight: 700;
+        }
+        button:hover{
+            background-color: brown;
+            color: wheat;
+          
+        }
+       select{
+            width: 100%;
+            border-radius: 10PX;
+            padding: 3PX;
+       }
+       :out-of-range{
+        border: 2PX red;
+       }
+       .al:hover{
+        border: 1px solid white;
+        padding: 2px;
+       }
+    </style>
+</head>
+<body>
+    <h1>FILL THE CONTACT</h1>
+    <H2>SIGN UP</H2>
+    <form action="index.html">
+        <BR>
+        <label for="#a">NAME</label>
+        <input id="a" type="text" placeholder="">
+        <BR>
+        <label>GENDER</label>
+        <select name="GENDER" >
+        <option value=""> </option>
+        <option value="MALE">MALE</option>
+        <option value="FEMALE">FEMALE</option>
+        </select>
+        <BR>
+            <BR>
+        <label for="#b">NUMBER</label>
+        <input id="b" type="number" placeholder="" >
+        <BR>
+        <label for="#c">EMAIL</label>
+        <input type="email" placeholder="">
+        <BR>
+        <label for="#d">DATE OF BIRTH</label>
+        <INPUT type="date" >
+        <BR>
+            <label>LOCATION</label>
+            <select name="LOCATION" >
+                <option value=""> </option>
+                <option value="SALEM">SALEM</option>
+                <option value="COIMBATURE">COIMBATURE</option>
+                <option value="BANGALORE">BANGALORE</option>
+                <option value="CHENNAI">CHENNAI</option>
+            </select>
+            <BR>
+        <BR>
+        <label for="#g">CREATE PASSWORD</label>
+        <input type="password" placeholder="" >
+        <BR>
+        <label for="#h">CONFORM PASSWORD</label>
+        <input type="password" placeholder="">
+        <BR>
+       <button>SUBMIT </button><a class="al" style="text-decoration: none; color: white; padding: 5px; " href="LOG.HTML"> Already I have a Accont</a>
+       <BR>
+    </form>
+</body>
+</html>
